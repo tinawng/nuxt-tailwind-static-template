@@ -1,0 +1,26 @@
+{
+  "name": "ishitani",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "deploy": "scp -r ./dist siyu:/home/pi/work/static-servers/ishitani"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nuxt": "^2.14.6",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "@nuxtjs/tailwindcss": "^3.1.0",
+    "postcss": "^7",
+    "autoprefixer": "^9",
+    "@aceforth/nuxt-optimized-images": "^1.4.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "imagemin-svgo": "^8.0.0",
+    "lqip-loader": "^2.2.1",
+    "responsive-loader": "^2.3.0",
+    "sharp": "^0.27.0"
+  }
+}
