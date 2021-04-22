@@ -1,11 +1,13 @@
 <template>
-  <div class="layout-container">
+  <div class="layout__container">
     <Nuxt />
   </div>
 </template>
 
 <style lang="postcss">
-.layout-container {
+#__layout {
   @apply min-h-screen;
+  max-width: 64rem;
+  @apply mx-auto;
 }
 </style>
