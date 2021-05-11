@@ -1,13 +1,12 @@
 {
-  "name": "ishitani",
+  "name": "template",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate --modern",
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.0.1",
     "nuxt": ">=2.15.3",
