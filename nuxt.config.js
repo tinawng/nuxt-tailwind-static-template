@@ -63,6 +63,9 @@ export default {
           "focus-within-pseudo-class": false
         }
       }
+    },
+    splitChunks: {
+      layouts: true
     }
   },
 
