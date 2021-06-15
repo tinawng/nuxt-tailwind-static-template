@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  props: ["images", "alt"],
+  props: { image: Array, alt: String },
   mounted() {
     var el = this.$refs["responsive-image"];
     this.images.forEach((image) => {
