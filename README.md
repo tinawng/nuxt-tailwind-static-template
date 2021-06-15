@@ -2,13 +2,13 @@
 
 A quick template with all the basics needed to jumpstart a new project ⚡
 
-# what's in the box 🎁
+# What's in the box 🎁
 
 - Nuxt 2.x (latest)
 - TailwindCSS 2 (with PostCSS)
 - A default page & layout
 - Global style sheet
-- Some components
+- Some *maybe* useful components
 
 # Process
 
