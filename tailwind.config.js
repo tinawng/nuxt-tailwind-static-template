@@ -12,6 +12,20 @@ module.exports = {
           '800': '#0D0D0D',
           '900': '#090909',
         }
+      },
+      fontSize: {
+        '2xs': '.65rem',
+      },
+      height: {
+        'fit': 'fit-content',
+        '18': '4.5rem',
+      },
+      width: {
+        'fit': 'fit-content',
+        '18': '4.5rem',
+      },
+      zIndex: {
+        '-1': '-1',
       }
     }
   },
