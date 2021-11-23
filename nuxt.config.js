@@ -66,9 +66,10 @@ export default {
         }
       }
     },
-    splitChunks: {
-      layouts: true
-    }
+    // 🚨 Uncomment only if encounter layout style leaks
+    // splitChunks: {
+    //   layouts: true
+    // }
   },
 
   render: {
