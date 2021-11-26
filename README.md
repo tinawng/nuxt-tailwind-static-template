@@ -4,25 +4,24 @@ A quick template with all the basics needed to jumpstart a new project ⚡
 
 # What's in the box 🎁
 
-- Nuxt 2.x (latest)
+- Nuxt 3.x (latest)
 - TailwindCSS 2 (with PostCSS)
-- A default page & layout
+- A default page
 - Global style sheet
-- Some *maybe* useful components
 
 # Process
 
 ## Creating a new Page
 Create a new ***Vue*** file in `/pages` folder. The name of the file is also use for its path. For example, `/pages/foo/bar.vue` will be resolved as `www.website.com/foo/bar.html`
 <br>
-💡 *More info here : [nuxtjs.org/docs/2.x/directory-structure/pages/](https://nuxtjs.org/docs/2.x/directory-structure/pages/)*
+💡 *More info here : [v3.nuxtjs.org/docs/directory-structure/pages/](https://v3.nuxtjs.org/docs/directory-structure/pages/)*
 
 ## Using Components
 Calling a component should be done as follows:
 <br>
 `/components/utils/FancyButton.vue` should be called with `<utils-fancy-button></utils-fancy-button>`
 <br>
-💡 *More info here : [nuxtjs.org/docs/2.x/directory-structure/components/](https://nuxtjs.org/docs/2.x/directory-structure/components/)*
+💡 *More info here : [v3.nuxtjs.org/docs/directory-structure/components](https://v3.nuxtjs.org/docs/directory-structure/components)*
 
 ## Style
 ### Global Style Sheet
@@ -54,12 +53,12 @@ You can override or add new properties for *Tailwind* inside its config file `/t
 - To add (or extend) new properties you can use this example: *[https://tailwindcss.com/docs/customizing-colors#extending-the-defaults](https://tailwindcss.com/docs/customizing-colors#extending-the-defaults)* Pay attention to the `extends:` property at the beginning.
 
 ## Layouts
-💨 *[nuxtjs.org/docs/2.x/directory-structure/layouts](https://nuxtjs.org/docs/2.x/directory-structure/layouts)*
+💨 *[v3.nuxtjs.org/docs/directory-structure/layouts](https://v3.nuxtjs.org/docs/directory-structure/layouts)*
 
-## Static vs Assets
+## Public vs Assets
 To make things simple. Assets inside the `/assets` folder will be proccesed by some webpack module, like `base.postcss` for example. It can be images, JSON files,... Outputted files will have hashed name to facilitate cache management.
 <br>
-On the opposite side, `/static` files will be served *as it is* with no hash or handling whatsoever.
+On the opposite side, `/public` files will be served *as it is* with no hash or handling whatsoever.
 
 ## Building
 ```bash
@@ -67,8 +66,8 @@ On the opposite side, `/static` files will be served *as it is* with no hash or 
 $ yarn install
 
 # run dev server (w/ hot reloead)
-$ yarn run dev
+$ yarn dev
 
 # build for production
-$ yarn run generate
+$ yarn build
 ```
