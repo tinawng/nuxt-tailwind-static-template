@@ -1,15 +1,17 @@
 {
+  "name": "template",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
-    "build": "nuxi generate"
+    "generate": "nuxi generate --modern"
   },
+  "dependencies": {},
   "devDependencies": {
-    "nuxt3": "latest",
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.1",
-    "tailwindcss": "^2.2.19"
-  },
-  "dependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
+    "@nuxt/http": "^0.6.4",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "nuxt-edge": "latest",
+    "postcss": "^8.3.6"
   }
 }
