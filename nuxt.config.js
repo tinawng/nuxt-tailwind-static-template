@@ -9,7 +9,14 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Tina Nuxt/Tailwind Template' }
+      { hid: 'description', name: 'description', content: 'Tina Nuxt/Tailwind Template' },
+
+      { hid: 'og:type', name: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:title', name: 'og:title', property: 'og:title', content: 'Tina Nuxt/Tailwind Template' },
+      { hid: 'og:site_name', name: 'og:site_name', property: 'og:site_name', content: 'Tina Nuxt/Tailwind Template' },
+      { hid: 'og:description', name: 'og:description', property: 'og:description', content: 'Tina Nuxt/Tailwind Template' },
+      { hid: 'og:url', name: 'og:url', property: 'og:url', content: 'https://tina.cafe/' },
+      { hid: 'og:image', name: 'og:image', property: 'og:image', content: 'https://tina.cafe/preview.jpg' }
     ],
     htmlAttrs: {
       lang: 'en'
