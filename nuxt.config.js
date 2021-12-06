@@ -16,7 +16,11 @@ export default {
       { hid: 'og:site_name', name: 'og:site_name', property: 'og:site_name', content: 'Tina Nuxt/Tailwind Template' },
       { hid: 'og:description', name: 'og:description', property: 'og:description', content: 'Tina Nuxt/Tailwind Template' },
       { hid: 'og:url', name: 'og:url', property: 'og:url', content: 'https://tina.cafe/' },
-      { hid: 'og:image', name: 'og:image', property: 'og:image', content: 'https://tina.cafe/preview.jpg' }
+      { hid: 'twitter:card', name: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
+      { hid: 'twitter:image', name: 'twitter:image', property: 'twitter:image', content: 'https://tina.cafe/preview.jpg' },
+      { hid: 'og:image', name: 'og:image', property: 'og:image', content: 'https://tina.cafe/preview.jpg' },
+      { hid: 'og:image:width', name: 'og:image:width', property: 'og:image:width', content: '1200' },
+      { hid: 'og:image:height', name: 'og:image:height', property: 'og:image:height', content: '630' }
     ],
     htmlAttrs: {
       lang: 'en'
