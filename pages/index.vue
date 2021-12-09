@@ -2,10 +2,7 @@
   <div>👋 Hello there</div>
 </template>
 
-<script setup>
-</script>
-
-<script >
+<script>
 export default {
   data: () => ({}),
 };
