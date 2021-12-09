@@ -59,6 +59,9 @@ typings/
 # Yarn Lock file
 yarn.lock
 
+# Npm Lock file
+package-lock.json
+
 # dotenv environment variables file
 .env
 
