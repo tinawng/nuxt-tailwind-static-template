@@ -9,7 +9,7 @@
   "dependencies": {},
   "devDependencies": {
     "nuxt": "latest",
-    "@nuxtjs/tailwindcss": "latest",
+    "@nuxtjs/tailwindcss": "^4.2.1",
     "postcss": "^8.3.6"
   }
 }
