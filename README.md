@@ -61,6 +61,9 @@ To make things simple. Assets inside the `/assets` folder will be proccesed by s
 <br>
 On the opposite side, `/static` files will be served *as it is* with no hash or handling whatsoever.
 
+## Tailwind Autocomplete
+💨 *[https://tailwindcss.nuxtjs.org/tailwind/editor-support/](https://tailwindcss.nuxtjs.org/tailwind/editor-support/)*
+
 ## Building
 ```bash
 # install dependencies
